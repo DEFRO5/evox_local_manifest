@@ -1,0 +1,47 @@
+<manifest>
+    <!-- Remote repositories -->
+    <remote name="DEFR05" fetch="https://github.com/DEFRO5/" />
+    
+    <!-- Device tree -->
+    <project
+        path="device/realme/lunaa"
+        name="device_tree_realme_lunaa"
+        remote="DEFR05"
+        revision="lineage-22.2" />
+
+    <!-- Device tree common -->
+    <project
+        path="device/oneplus/sm8350-common"
+        name="android_device_oneplus_sm8350-common"
+        remote="DEFR05"
+        revision="lineage-23.0" />
+
+    <!-- Kernel source -->
+    <project
+        path="kernel/oneplus/sm8350"
+        name="platform_kernel_oneplus_sm8350"
+        remote="DEFR05"
+        revision="sixteen" />
+
+    <!--Oneplus Hardware -->
+    <project
+        path="hardware/oplus"
+        name="hardware_oplus"
+        remote="DEFR05"
+        revision="lineage-22.2" />
+
+    <!-- Vendor tree -->
+    <project
+        path="vendor/realme/lunaa"
+        name="vendor_lunaa"
+        remote="DEFR05"
+        revision="fifteen"  />
+    
+    <!-- Vendor common tree -->
+    <project
+        path="vendor/oneplus/sm8350-common"
+        name="proprietary_vendor_oneplus_sm8350-common"
+        remote="DEFR05"
+        revision="sixteen"  />
+    
+</manifest>
