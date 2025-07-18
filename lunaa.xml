@@ -16,19 +16,19 @@
         remote="DEFR05"
         revision="lineage-23.0" />
 
+    <!--Oneplus Hardware -->
+    <project
+        path="hardware/oplus"
+        name="hardware_oplus"
+        remote="DEFR05"
+        revision="lineage-23.0" />
+
     <!-- Kernel source -->
     <project
         path="kernel/oneplus/sm8350"
         name="platform_kernel_oneplus_sm8350"
         remote="DEFR05"
         revision="sixteen" />
-
-    <!--Oneplus Hardware -->
-    <project
-        path="hardware/oplus"
-        name="hardware_oplus"
-        remote="DEFR05"
-        revision="lineage-22.2" />
 
     <!-- Vendor tree -->
     <project
