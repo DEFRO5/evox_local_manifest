@@ -35,7 +35,7 @@
         path="vendor/realme/lunaa"
         name="vendor_lunaa"
         remote="DEFR05"
-        revision="fifteen"  />
+        revision="sixteen"  />
     
     <!-- Vendor common tree -->
     <project
