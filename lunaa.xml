@@ -1,7 +1,8 @@
 <manifest>
     <!-- Remote repositories -->
     <remote name="DEFR05" fetch="https://github.com/DEFRO5/" />
-    
+    <remote name="pjgowtham" fetch="https://gitlab.com/pjgowtham/" />
+
     <!-- Device tree -->
     <project
         path="device/realme/lunaa"
