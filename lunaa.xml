@@ -8,7 +8,7 @@
         path="device/realme/lunaa"
         name="device_tree_realme_lunaa"
         remote="DEFR05"
-        revision="lineage-22.2" />
+        revision="lineage-22.2-evox" />
 
     <!-- Device tree common -->
     <project
